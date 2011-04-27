@@ -1,0 +1,659 @@
+Pinlist
+
+Exported from MS-v4.1.brd at 1/4/2010 9:55:57 AM
+
+EAGLE Version 5.6.0 Copyright (c) 1988-2009 CadSoft
+
+Part     Pad      Net
+
+C1       1        +5V
+         2        GND
+
+C2       1        N$9
+         2        GND
+
+C3       1        N$28
+         2        GND
+
+C4       +        N$19
+         -        GND
+
+C5       1        N$19
+         2        GND
+
+C6       1        +5V
+         2        GND
+
+C7       +        +5V
+         -        GND
+
+C8       +        N$21
+         -        GND
+
+C9       +        N$22
+         -        GND
+
+C10      +        N$26
+         -        GND
+
+C11      +        N$27
+         -        GND
+
+C12      1        +5V
+         2        GND
+
+C13      1        N$44
+         2        GND
+
+C14      1        N$43
+         2        GND
+
+C15      1        +5V
+         2        GND
+
+C16      1        N$62
+         2        GND
+
+C17      1        N$61
+         2        GND
+
+C18      1        +5V
+         2        GND
+
+C19      1        N$80
+         2        GND
+
+C20      1        N$79
+         2        GND
+
+C21      1        +12V
+         2        GND
+
+C22      +        +24V
+         -        GND
+
+C23      +        +24V
+         -        GND
+
+C24      +        +24V
+         -        GND
+
+C25      +        +24V
+         -        GND
+
+D1       A        N$14
+         C        +24V
+
+D2       A        N$15
+         C        +24V
+
+D3       A        N$16
+         C        +24V
+
+D4       A        N$17
+         C        +24V
+
+D5       A        GND
+         C        N$14
+
+D6       A        GND
+         C        N$15
+
+D7       A        GND
+         C        N$16
+
+D8       A        GND
+         C        N$17
+
+D9       A        N$21
+         C        Z-STEP
+
+D10      A        N$22
+         C        Y-STEP
+
+D11      A        N$26
+         C        X-STEP
+
+D12      A        N$27
+         C        A-STEP
+
+D13      A        N$37
+         C        +24V
+
+D14      A        N$38
+         C        +24V
+
+D15      A        N$39
+         C        +24V
+
+D16      A        N$40
+         C        +24V
+
+D17      A        GND
+         C        N$37
+
+D18      A        GND
+         C        N$38
+
+D19      A        GND
+         C        N$39
+
+D20      A        GND
+         C        N$40
+
+D21      A        N$55
+         C        +24V
+
+D22      A        N$56
+         C        +24V
+
+D23      A        N$57
+         C        +24V
+
+D24      A        N$58
+         C        +24V
+
+D25      A        GND
+         C        N$55
+
+D26      A        GND
+         C        N$56
+
+D27      A        GND
+         C        N$57
+
+D28      A        GND
+         C        N$58
+
+D29      A        N$73
+         C        +24V
+
+D30      A        N$74
+         C        +24V
+
+D31      A        N$75
+         C        +24V
+
+D32      A        N$76
+         C        +24V
+
+D33      A        GND
+         C        N$73
+
+D34      A        GND
+         C        N$74
+
+D35      A        GND
+         C        N$75
+
+D36      A        GND
+         C        N$76
+
+IC1      1        TQ1
+         10       GND
+         11       N$1
+         12       N$16
+         13       N$15
+         14       N$2
+         15       GND
+         16       N$14
+         17       N$10
+         18       +24V
+         19                *** unconnected ***
+         2        TQ2
+         20       +5V
+         21       Z-DIR
+         22       M2
+         23       M1
+         24       DCY2
+         25       DCY1
+         3        Z-STEP
+         4        Z-ENABLE
+         5        N$28
+         6        GND
+         7        N$9
+         8        +24V
+         9        N$17
+
+IC2      1        N$20
+         2        +5V
+         3        +12V
+
+IC3      1        N$27
+         10       N$22
+         11       Z-TQ
+         12       N$21
+         13       N$21
+         14       +5V
+         2        N$27
+         3        A-TQ
+         4        N$26
+         5        N$26
+         6        X-TQ
+         7        GND
+         8        Y-TQ
+         9        N$22
+
+IC4      1        TQ3
+         10       GND
+         11       N$29
+         12       N$39
+         13       N$38
+         14       N$30
+         15       GND
+         16       N$37
+         17       N$45
+         18       +24V
+         19                *** unconnected ***
+         2        TQ4
+         20       +5V
+         21       Y-DIR
+         22       M4
+         23       M3
+         24       DCY4
+         25       DCY3
+         3        Y-STEP
+         4        Y-ENABLE
+         5        N$44
+         6        GND
+         7        N$43
+         8        +24V
+         9        N$40
+
+IC5      1        TQ5
+         10       GND
+         11       N$36
+         12       N$57
+         13       N$56
+         14       N$47
+         15       GND
+         16       N$55
+         17       N$63
+         18       +24V
+         19                *** unconnected ***
+         2        TQ6
+         20       +5V
+         21       X-DIR
+         22       M6
+         23       M5
+         24       DCY6
+         25       DCY5
+         3        X-STEP
+         4        X-ENABLE
+         5        N$62
+         6        GND
+         7        N$61
+         8        +24V
+         9        N$58
+
+IC6      1        TQ7
+         10       GND
+         11       N$6
+         12       N$75
+         13       N$74
+         14       N$7
+         15       GND
+         16       N$73
+         17       N$81
+         18       +24V
+         19                *** unconnected ***
+         2        TQ8
+         20       +5V
+         21       A-DIR
+         22       M8
+         23       M7
+         24       DCY8
+         25       DCY7
+         3        A-STEP
+         4        A-ENABLE
+         5        N$80
+         6        GND
+         7        N$79
+         8        +24V
+         9        N$76
+
+IC7      1        N$11
+         2        +12V
+         3        N$19
+
+J1       1        Z-DIR
+         2        Z-ENABLE
+         3        Z-STEP
+         4        GND
+
+J2       1        Y-DIR
+         2        Y-ENABLE
+         3        Y-STEP
+         4        GND
+
+J3       1        X-DIR
+         2        X-ENABLE
+         3        X-STEP
+         4        GND
+
+J4       1        A-DIR
+         2        A-ENABLE
+         3        A-STEP
+         4        GND
+
+J5       1        GND
+         2        +12V
+
+JP1      1        GND
+         2        N$34
+         3        GND
+         4        N$33
+         5        GND
+         6        N$31
+
+JP2      1        GND
+         2        N$5
+         3        GND
+         4        N$4
+         5        GND
+         6        N$3
+
+JP3      1        GND
+         2        N$35
+         3        GND
+         4        N$32
+         5        GND
+         6        N$8
+
+JP4      1        GND
+         2        N$50
+         3        GND
+         4        N$49
+         5        GND
+         6        N$48
+
+K2       1        +5V
+         2        GND
+         O                 *** unconnected ***
+         P        N$19
+         S        +24V
+
+LED1     A        +5V
+         K        N$23
+
+LED2     A        +5V
+         K        N$24
+
+LED4     A        +5V
+         K        N$41
+
+LED6     A        +5V
+         K        N$59
+
+LED8     A        +5V
+         K        N$77
+
+R1       1        N$22
+         2        Y-STEP
+
+R2       1        N$21
+         2        Z-STEP
+
+R3       1        N$26
+         2        X-STEP
+
+R4       1        N$27
+         2        A-STEP
+
+R5       1        N$1
+         2        N$5
+
+R6       1        N$1
+         2        N$4
+
+R7       1        N$1
+         2        N$3
+
+R8       1        N$2
+         2        N$5
+
+R9       1        N$2
+         2        N$4
+
+R10      1        N$2
+         2        N$3
+
+R11      1        N$29
+         2        N$34
+
+R12      1        N$29
+         2        N$33
+
+R13      1        GND
+         2        N$20
+
+R14      1        N$20
+         2        +5V
+
+R15      1        N$29
+         2        N$31
+
+R16      1        N$28
+         2        +5V
+
+R17      1        N$30
+         2        N$34
+
+R18      1        N$30
+         2        N$33
+
+R19      1        N$30
+         2        N$31
+
+R20      1        GND
+         2        N$23
+
+R21      1        N$10
+         2        N$24
+
+R22      1        GND
+         2        N$11
+
+R23      1        N$45
+         2        N$41
+
+R24      1        N$11
+         2        +12V
+
+R25      1        N$44
+         2        +5V
+
+R26      1        N$6
+         2        N$35
+
+R27      1        N$6
+         2        N$32
+
+R28      1        N$6
+         2        N$8
+
+R29      1        N$7
+         2        N$35
+
+R30      1        N$7
+         2        N$32
+
+R31      1        N$7
+         2        N$8
+
+R32      1        N$63
+         2        N$59
+
+R34      1        N$62
+         2        +5V
+
+R35      1        N$36
+         2        N$50
+
+R36      1        N$36
+         2        N$49
+
+R37      1        N$36
+         2        N$48
+
+R38      1        N$47
+         2        N$50
+
+R39      1        N$47
+         2        N$49
+
+R40      1        N$47
+         2        N$48
+
+R41      1        N$81
+         2        N$77
+
+R43      1        N$80
+         2        +5V
+
+RN1      1        GND
+         2        DCY1
+         3        DCY2
+         4        M1
+         5        M2
+         6        TQ1
+         7        TQ2
+
+RN2      1        +5V
+         10       A-DIR
+         2        ENABLE
+         3        Z-STEP
+         4        Z-DIR
+         5        Y-STEP
+         6        Y-DIR
+         7        X-STEP
+         8        X-DIR
+         9        A-STEP
+
+RN3      1        GND
+         2        DCY3
+         3        DCY4
+         4        M3
+         5        M4
+         6        TQ3
+         7        TQ4
+
+RN4      1        GND
+         2        DCY5
+         3        DCY6
+         4        M5
+         5        M6
+         6        TQ5
+         7        TQ6
+
+RN5      1        GND
+         2        DCY7
+         3        DCY8
+         4        M7
+         5        M8
+         6        TQ7
+         7        TQ8
+
+S        1        Z-TQ
+         10       M2
+         11       TQ1
+         12       TQ2
+         2        Z-TQ
+         3        +5V
+         4        +5V
+         5        +5V
+         6        +5V
+         7        DCY1
+         8        DCY2
+         9        M1
+
+S1       1        Y-TQ
+         10       M4
+         11       TQ3
+         12       TQ4
+         2        Y-TQ
+         3        +5V
+         4        +5V
+         5        +5V
+         6        +5V
+         7        DCY3
+         8        DCY4
+         9        M3
+
+S2       1        X-TQ
+         10       M6
+         11       TQ5
+         12       TQ6
+         2        X-TQ
+         3        +5V
+         4        +5V
+         5        +5V
+         6        +5V
+         7        DCY5
+         8        DCY6
+         9        M5
+
+S3       1        A-TQ
+         10       M8
+         11       TQ7
+         12       TQ8
+         2        A-TQ
+         3        +5V
+         4        +5V
+         5        +5V
+         6        +5V
+         7        DCY7
+         8        DCY8
+         9        M7
+
+X1       1        N$37
+         2        N$38
+         3        N$39
+         4        N$40
+
+X2       1                 *** unconnected ***
+         10                *** unconnected ***
+         11                *** unconnected ***
+         12                *** unconnected ***
+         13                *** unconnected ***
+         14       ENABLE
+         15                *** unconnected ***
+         16                *** unconnected ***
+         17                *** unconnected ***
+         18       GND
+         19       GND
+         2        Z-STEP
+         20       GND
+         21       GND
+         22       GND
+         23       GND
+         24       GND
+         25       GND
+         3        Z-DIR
+         4        Y-STEP
+         5        Y-DIR
+         6        X-STEP
+         7        X-DIR
+         8        A-STEP
+         9        A-DIR
+         G1                *** unconnected ***
+         G2                *** unconnected ***
+
+X3       1        N$14
+         2        N$15
+         3        N$16
+         4        N$17
+
+X4       1        N$55
+         2        N$56
+         3        N$57
+         4        N$58
+
+X5       1        N$73
+         2        N$74
+         3        N$75
+         4        N$76
+
+X6       1        N$19
+         2        GND
+
