@@ -1,0 +1,5 @@
+Thurdsay 	6-27-2013 -   	Customer visit:	 						1Hr
+			6-27-2013 		Schematic and omponent analysis 		3Hr
+			6-28-2013      	Schematic capture & PCB layout		    7hr 
+							Ordering of 6 PCB's 					
+			7-08-2013		Compontent selection, BOM preparation	2hr
