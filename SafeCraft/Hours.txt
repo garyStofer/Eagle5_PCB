@@ -1,5 +1,5 @@
  	6-27-2013 -   	Customer visit:	 						1 
-	6-27-2013 		Schematic and omponent analysis 		3 
+	6-27-2013 		Schematic and component analysis 		3 
 	6-28-2013      	Schematic capture & PCB layout		    7  
 					Ordering of 6 PCB's 					
 	7-08-2013		Compontent selection, BOM preparation	2 
@@ -7,4 +7,15 @@
 	7-15-2013 		Customer visit, valiate prototype		1 
 	7-15-2013		Relocated Z-diode, Transistor, orders
 					submitted CAD files to PCB mfgr	   		3.0  
-			
+					
+	7-18-2013		Populate 6 PCBs Version 1.0 PCBs 		1.0 
+	7-19-2013		Pickup PCBs from fab in Oakland,
+					populate, test and deliver 12 PCB  		2.5	
+					
+					Total Hours 							23.25 Hrs @ $75.00 			1743.75
+					
+					Parts for initial 10 boards $8 + $34.97 + $16 SH						59.00
+					Initial PCBs 6 Purple with backwards mounted LEDs						10.10
+					
+																						1812.85	
+					
