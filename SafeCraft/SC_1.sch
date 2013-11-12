@@ -8326,7 +8326,7 @@ grid 5.08 mm</description>
 <part name="R6" library="rcl" deviceset="R-US_" device="R1206" value="24"/>
 <part name="LED2" library="led" deviceset="LED" device="P-LCC-2" value="SML-LX2832SYC-TR"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="R0805" value="12"/>
-<part name="Z1" library="diode" deviceset="ZENER-DIODE" device="SMB" value="1SMA5915BT3G"/>
+<part name="Z1" library="diode" deviceset="ZENER-DIODE" device="SMB" value="1SMA5917BT3G"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="R0805" value="750K"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0805" value="7.5M"/>
 <part name="SUPPLY1" library="supply2" deviceset="+9V" device=""/>
@@ -8336,7 +8336,7 @@ grid 5.08 mm</description>
 <part name="U$2" library="1AA_Stofer" deviceset="SOLDERPAD_NOHOLE" device=""/>
 <part name="U$3" library="1AA_Stofer" deviceset="SOLDERPAD_NOHOLE" device=""/>
 <part name="U$4" library="1AA_Stofer" deviceset="SOLDERPAD_NOHOLE" device=""/>
-<part name="T1" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC807-16" value="DSS20200"/>
+<part name="T1" library="transistor" deviceset="*-PNP-" device="SOT23-BEC" technology="BC807-16" value="FMMT718TA"/>
 <part name="U$5" library="1AA_Stofer" deviceset="8.5X11" device=""/>
 </parts>
 <sheets>
@@ -8347,9 +8347,9 @@ grid 5.08 mm</description>
 <text x="109.22" y="71.12" size="1.778" layer="96" rot="R90">Active</text>
 <text x="99.06" y="71.12" size="1.778" layer="96" rot="R90">Battery Test</text>
 <text x="160.02" y="10.16" size="1.778" layer="96">OUT_B</text>
-<text x="111.76" y="30.48" size="1.778" layer="96">3.9V</text>
 <text x="203.2" y="-38.1" size="2.54" layer="94">1.A</text>
 <text x="121.92" y="-17.78" size="5.08" layer="94">SAFECRAFT Products</text>
+<text x="111.76" y="30.48" size="1.778" layer="96">4.7V</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="53.34" y="58.42"/>
