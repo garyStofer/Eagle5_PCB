@@ -3621,6 +3621,20 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <sheets>
 <sheet>
 <plain>
+<text x="200.66" y="190.5" size="1.778" layer="95">SDA</text>
+<text x="200.66" y="187.96" size="1.778" layer="95">SCL</text>
+<text x="200.66" y="182.88" size="1.778" layer="95">A3</text>
+<text x="200.66" y="185.42" size="1.778" layer="95">A1</text>
+<text x="200.66" y="193.04" size="1.778" layer="95">5V</text>
+<text x="200.66" y="162.56" size="1.778" layer="95">5V</text>
+<text x="200.66" y="144.78" size="1.778" layer="95">GND</text>
+<text x="200.66" y="180.34" size="1.778" layer="95">GND</text>
+<text x="200.66" y="160.02" size="1.778" layer="95">A2</text>
+<text x="200.66" y="157.48" size="1.778" layer="95">ADC7</text>
+<text x="200.66" y="154.94" size="1.778" layer="95">ADC6</text>
+<text x="200.66" y="152.4" size="1.778" layer="95">D13/SCK</text>
+<text x="200.66" y="149.86" size="1.778" layer="95">D12/MISO</text>
+<text x="200.66" y="147.32" size="1.778" layer="95">D11/MOSI</text>
 </plain>
 <instances>
 <instance part="SW1" gate="ENCODER" x="144.78" y="144.78" smashed="yes" rot="MR270">
@@ -3696,8 +3710,8 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <instance part="JP3" gate="G$1" x="193.04" y="154.94" rot="R180"/>
 <instance part="U3" gate="G$1" x="10.16" y="137.16"/>
 <instance part="GND2" gate="1" x="10.16" y="124.46"/>
-<instance part="R11" gate="G$1" x="160.02" y="167.64" rot="R90"/>
-<instance part="R12" gate="G$1" x="160.02" y="152.4" rot="R90"/>
+<instance part="R11" gate="G$1" x="162.56" y="167.64" rot="R90"/>
+<instance part="R12" gate="G$1" x="162.56" y="152.4" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3789,8 +3803,8 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pinref part="SW1" gate="SW" pin="1"/>
 <wire x1="154.94" y1="139.7" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="147.32" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="147.32" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="6"/>
@@ -3856,7 +3870,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="127" y1="210.82" x2="185.42" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A5_PC5" class="0">
+<net name="A5_PC5_SCL" class="0">
 <segment>
 <label x="96.52" y="177.8" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="PC5(ADC5/SCL)"/>
@@ -3869,7 +3883,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <junction x="116.84" y="187.96"/>
 </segment>
 </net>
-<net name="A4_PC4" class="0">
+<net name="A4_PC4_SDA" class="0">
 <segment>
 <wire x1="93.98" y1="180.34" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
 <label x="96.52" y="180.34" size="1.778" layer="95"/>
@@ -3931,8 +3945,9 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="172.72" x2="160.02" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="180.34" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="172.72" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="180.34" x2="165.1" y2="180.34" width="0.1524" layer="91"/>
+<label x="167.64" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D2_PD2" class="0">
@@ -4210,12 +4225,12 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <label x="99.06" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="187.96" y1="157.48" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
 <label x="167.64" y="157.48" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="3"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="162.56" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="162.56" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A2_PC2" class="0">
