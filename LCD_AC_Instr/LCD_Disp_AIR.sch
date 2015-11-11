@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="wire" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="wire" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -3659,7 +3659,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
-<<<<<<< HEAD
 <package name="1X02">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
@@ -3684,8 +3683,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 </package>
-=======
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 </packages>
 <symbols>
 <symbol name="TC1055">
@@ -3701,7 +3698,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pin name="ERR" x="5.08" y="-10.16" length="middle" direction="out" rot="R90"/>
 <pin name="OUT" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
 </symbol>
-<<<<<<< HEAD
 <symbol name="PINHD2">
 <wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
@@ -3712,8 +3708,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-=======
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 </symbols>
 <devicesets>
 <deviceset name="TC10553.3V">
@@ -3735,7 +3729,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<<<<<<< HEAD
 <deviceset name="PINHD-1X2" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
@@ -3753,8 +3746,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-=======
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 </devicesets>
 </library>
 </libraries>
@@ -3827,10 +3818,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="C9" library="SparkFun" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="IC3" library="1AA_Stofer" deviceset="TC10553.3V" device=""/>
 <part name="F1" library="dp_devices" deviceset="FUSE_PTC" device="-0805"/>
-<<<<<<< HEAD
 <part name="LCD-BL" library="1AA_Stofer" deviceset="PINHD-1X2" device=""/>
-=======
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 </parts>
 <sheets>
 <sheet>
@@ -3913,11 +3901,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <attribute name="VALUE" x="208.28" y="218.44" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="200.66" y="199.898" size="1.778" layer="95" rot="R180"/>
 </instance>
-<<<<<<< HEAD
 <instance part="GND1" gate="1" x="167.64" y="109.22"/>
-=======
-<instance part="GND1" gate="1" x="162.56" y="109.22"/>
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 <instance part="GND3" gate="1" x="149.86" y="195.58"/>
 <instance part="GND4" gate="1" x="149.86" y="134.62"/>
 <instance part="P1" gate="G$1" x="172.72" y="193.04" smashed="yes">
@@ -3963,10 +3947,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </instance>
 <instance part="IC3" gate="G$1" x="7.62" y="139.7"/>
 <instance part="F1" gate="G$1" x="-2.54" y="111.76" rot="R90"/>
-<<<<<<< HEAD
 <instance part="LCD-BL" gate="G$1" x="162.56" y="109.22"/>
-=======
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 </instances>
 <busses>
 </busses>
@@ -4043,17 +4024,12 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="147.32" y1="121.92" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="121.92" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<<<<<<< HEAD
 <wire x1="147.32" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="121.92" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="111.76" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="LCD-BL" gate="G$1" pin="1"/>
-=======
-<wire x1="147.32" y1="121.92" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="121.92" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 </segment>
 <segment>
 <pinref part="SW1" gate="ENCODER" pin="C"/>
@@ -4135,11 +4111,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <net name="RESET" class="0">
 <segment>
 <wire x1="45.72" y1="190.5" x2="35.56" y2="190.5" width="0.1524" layer="91"/>
-<<<<<<< HEAD
 <wire x1="35.56" y1="190.5" x2="35.56" y2="198.12" width="0.1524" layer="91"/>
-=======
-<wire x1="35.56" y1="190.5" x2="35.56" y2="200.66" width="0.1524" layer="91"/>
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 <pinref part="U1" gate="G$1" pin="PC6(/RESET)"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -4429,19 +4401,11 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </segment>
 <segment>
 <pinref part="P1" gate="G$1" pin="3.3V"/>
-<<<<<<< HEAD
 <wire x1="172.72" y1="193.04" x2="185.42" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="193.04" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="193.04" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
-=======
-<wire x1="172.72" y1="193.04" x2="180.34" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="193.04" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="193.04" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 <pinref part="JP3" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -4464,7 +4428,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <segment>
 <pinref part="LCD" gate="A" pin="2"/>
 <wire x1="147.32" y1="106.68" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
-<<<<<<< HEAD
 <wire x1="147.32" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="P4" gate="G$1" pin="3.3V"/>
 <wire x1="157.48" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
@@ -4472,11 +4435,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="160.02" y1="109.22" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="109.22" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="LCD-BL" gate="G$1" pin="2"/>
-=======
-<wire x1="147.32" y1="101.6" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="P4" gate="G$1" pin="3.3V"/>
-<wire x1="172.72" y1="101.6" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -4536,15 +4494,9 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <wire x1="99.06" y1="185.42" x2="106.68" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<<<<<<< HEAD
 <label x="182.88" y="157.48" size="1.778" layer="95"/>
 <wire x1="200.66" y1="157.48" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="3"/>
-=======
-<wire x1="200.66" y1="160.02" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
-<label x="182.88" y="160.02" size="1.778" layer="95"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
->>>>>>> 07be83affe1acfb1b661d02368b311dbe9684504
 </segment>
 </net>
 <net name="D13_PB5_SCK" class="0">
