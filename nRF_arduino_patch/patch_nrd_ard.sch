@@ -66,10 +66,13 @@
 <layer number="105" name="Beschreib" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="BGA-Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="BD-Top" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="centerline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="prix" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="test" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
@@ -129,7 +132,7 @@ over 680 µH, grid 5 mm, diameter 12.5 mm, height 20 mm</description>
 <package name="P1-13">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.8128"/>
+<pad name="1" x="0" y="0" drill="0.9"/>
 <text x="-1.016" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
@@ -173,6 +176,31 @@ over 680 µH, grid 5 mm, diameter 12.5 mm, height 20 mm</description>
 <text x="-1.27" y="2.794" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
+</package>
+<package name="SOT223">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.778" x2="-3.2766" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.778" x2="3.2766" y2="1.778" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="1.0208" y="-4.318" size="0.8128" layer="21" ratio="12">3</text>
+<text x="1.905" y="2.54" size="0.8128" layer="21" ratio="12">4</text>
+<text x="-3.4526" y="-4.318" size="0.8128" layer="21" ratio="12">1</text>
+<text x="-1.2906" y="-4.3274" size="0.8128" layer="21" ratio="12">2</text>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -225,6 +253,19 @@ over 680 µH, grid 5 mm, diameter 12.5 mm, height 20 mm</description>
 <text x="1.27" y="19.05" size="2.54" layer="94" font="vector">TITLE:</text>
 <text x="1.27" y="11.43" size="2.54" layer="94" font="vector">Document Number:</text>
 <text x="17.78" y="19.05" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+</symbol>
+<symbol name="VREG-3PIN">
+<description>3 pin linear regulator</description>
+<pin name="V_IN" x="-10.16" y="2.54" length="short"/>
+<pin name="GND" x="-2.54" y="-10.16" length="short" rot="R90"/>
+<pin name="V_OUT" x="10.16" y="0" length="short" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="TAB" x="7.62" y="5.08" length="point"/>
+<text x="2.54" y="-10.16" size="1.27" layer="95">&gt;Name</text>
+<text x="-7.62" y="7.62" size="1.27" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -316,6 +357,24 @@ over 680 µH, grid 5 mm, diameter 12.5 mm, height 20 mm</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP1703A">
+<gates>
+<gate name="G$1" symbol="VREG-3PIN" x="15.24" y="-12.7"/>
+</gates>
+<devices>
+<device name="SOT223" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="TAB" pad="4"/>
+<connect gate="G$1" pin="V_IN" pad="1"/>
+<connect gate="G$1" pin="V_OUT" pad="3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14240,6 +14299,8 @@ Source: www.kingbright.com</description>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="330"/>
 <part name="C3" library="rcl" deviceset="C-US" device="C0805" value="0.1uf"/>
 <part name="U$2" library="1AA_Stofer" deviceset="8.5X11" device=""/>
+<part name="IC1" library="1AA_Stofer" deviceset="MCP1703A" device="SOT223" value=" 3.3V"/>
+<part name="SP1" library="1AA_Stofer" deviceset="SOLDER_POINT" device="A"/>
 </parts>
 <sheets>
 <sheet>
@@ -14249,16 +14310,17 @@ Source: www.kingbright.com</description>
 <text x="154.94" y="48.26" size="1.778" layer="95">D7 via wire</text>
 <text x="172.72" y="-25.4" size="2.54" layer="94">Interface board between Arduino Pro mini and nRF24L</text>
 <text x="114.3" y="5.08" size="2.54" layer="94">Pro Mini with 14 pin dual row header (SV1) </text>
-<text x="78.74" y="5.08" size="2.54" layer="94">nRF24L</text>
+<text x="78.74" y="22.86" size="2.54" layer="97">nRF24L</text>
 <text x="226.06" y="86.36" size="2.54" layer="95" rot="R270">Voltage divider for battery test</text>
 <text x="22.86" y="10.16" size="2.54" layer="95" rot="R90">Battery: 2xAAA using housing Keystone PN 2468. </text>
 <text x="190.5" y="73.66" size="1.778" layer="95" rot="R180">Blue LED </text>
 <text x="180.34" y="33.02" size="1.778" layer="95">Green LED 3V</text>
-<text x="96.52" y="60.96" size="1.778" layer="95">Cut connection to D11 on the Arduino pcb and wire P2 to D7 via high wire.</text>
-<text x="99.06" y="66.04" size="1.778" layer="95">SV1 Pin2 is connected to D11 (aka MOSI) on the Aurduino pcb. </text>
+<text x="101.6" y="88.9" size="1.778" layer="95">Cut connection to D11 on the Arduino pcb and wire SV1,Pin2 to D7 via high wire.</text>
+<text x="101.6" y="86.36" size="1.778" layer="95">SV1 Pin2 is connected to D11 (aka MOSI) on the Aurduino pcb. </text>
 <text x="12.7" y="-48.26" size="2.54" layer="95">PCBs can be ordered directly at https://oshpark.com/shared_projects/PWLCreWN  for $1 each.</text>
 <text x="12.7" y="111.76" size="3.81" layer="95">Remove 5V regulator on Arduino  Pro Mini.</text>
 <text x="12.7" y="104.14" size="3.81" layer="95">Power Arduino Pro mini  with  3.3V serial adapter for programming.</text>
+<text x="81.28" y="15.24" size="1.778" layer="97">Connect SP1  to Arduino pin D2, (PD2, INT0) if needed </text>
 </plain>
 <instances>
 <instance part="SV1" gate="G$1" x="144.78" y="40.64" rot="R180"/>
@@ -14283,6 +14345,8 @@ Source: www.kingbright.com</description>
 <instance part="C3" gate="G$1" x="218.44" y="55.88"/>
 <instance part="U$2" gate="G$1" x="2.54" y="-53.34"/>
 <instance part="U$2" gate="G$2" x="167.64" y="-53.34"/>
+<instance part="IC1" gate="G$1" x="111.76" y="66.04" rot="MR0"/>
+<instance part="SP1" gate="G$1" x="83.82" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -14309,13 +14373,17 @@ Source: www.kingbright.com</description>
 <wire x1="152.4" y1="33.02" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="50.8" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
+<junction x="177.8" y="33.02"/>
 </segment>
 </net>
 <net name="IRQ" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="7"/>
-<wire x1="76.2" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <label x="73.66" y="30.48" size="1.778" layer="95"/>
+<wire x1="76.2" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="33.02" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="SP1" gate="G$1" pin="P$1"/>
+<wire x1="68.58" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CE" class="0">
@@ -14343,29 +14411,31 @@ Source: www.kingbright.com</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<label x="129.54" y="35.56" size="1.778" layer="95"/>
 <pinref part="SV2" gate="G$1" pin="2"/>
 <label x="99.06" y="40.64" size="1.778" layer="95"/>
 <wire x1="91.44" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="40.64" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="53.34" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="22.86" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="35.56" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="40.64" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="C"/>
+<wire x1="114.3" y1="35.56" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="15.24" x2="177.8" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="12.7" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="12.7" x2="177.8" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="12.7" x2="177.8" y2="12.7" width="0.1524" layer="91"/>
-<junction x="114.3" y="35.56"/>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
 <wire x1="203.2" y1="12.7" x2="203.2" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="11"/>
-<wire x1="137.16" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="BAT-" gate="G$1" pin="P$1"/>
 <junction x="48.26" y="12.7"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="114.3" y1="40.64" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="11"/>
+<wire x1="137.16" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
+<label x="129.54" y="35.56" size="1.778" layer="95"/>
+<junction x="114.3" y="35.56"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -14468,18 +14538,17 @@ Source: www.kingbright.com</description>
 <wire x1="43.18" y1="30.48" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="40.64" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="7"/>
-<label x="129.54" y="40.64" size="1.778" layer="95"/>
-<wire x1="137.16" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="40.64" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="81.28" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="81.28" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <junction x="48.26" y="81.28"/>
 <pinref part="L2" gate="G$1" pin="A"/>
 <wire x1="177.8" y1="73.66" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="V_OUT"/>
+<wire x1="101.6" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="66.04" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14487,6 +14556,16 @@ Source: www.kingbright.com</description>
 <pinref part="L2" gate="G$1" pin="C"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="66.04" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC_5V" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="7"/>
+<wire x1="137.16" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
+<label x="129.54" y="40.64" size="1.778" layer="95"/>
+<wire x1="124.46" y1="40.64" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="V_IN"/>
+<wire x1="124.46" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
