@@ -946,7 +946,7 @@ high speed (Philips)</description>
 <text x="63.5" y="30.48" size="2.54" layer="97">Unused</text>
 <text x="71.12" y="121.92" size="2.54" layer="97">Layout only for Relays board. Connectors are handwired </text>
 <text x="71.12" y="116.84" size="2.54" layer="97">Relays box is located under LH removable floor panel</text>
-<text x="-93.98" y="154.94" size="6.4516" layer="97">TRIM SERVO CONTROL RV8 N427GS</text>
+<text x="-114.3" y="154.94" size="6.4516" layer="97">TRIM SERVO CONTROL RV8 N427GS</text>
 <text x="-2.54" y="48.26" size="2.54" layer="97">Realay: 2A contact . 12V coil </text>
 <text x="86.36" y="48.26" size="2.54" layer="97">Realay: 2A contact . 12V coil </text>
 </plain>
