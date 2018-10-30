@@ -1,0 +1,10 @@
+The Micro_aprs / Namo_APRS modem firmware can be uploaded to a Arduino based taget 
+using the standard Arduino or the optiboot bootloader.
+
+The .cmd file 2flashAPRS needs to be modified for the actual COM port number the USB UART has enumerated to. 
+
+For the weather station APRS modem use the 5V SimpleSerial image needs to be used. The BAUD rate needs to be 
+adjusted depending on the bootloader present on the target.  
+
+Fuses on the target should be set to 9xFD, 0xDA,0xFF beforehand with the help of a debug interface
+ programmer when loading the bootloader to an empty chip.
