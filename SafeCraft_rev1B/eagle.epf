@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 03 00"
+Version="06 04 00"
 Platform="Windows"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -7,7 +7,6 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="C:/Program Files/EAGLE-6.3.0/lbr/transistor-pnp.lbr"
 
 [Win_1]
 Type="Control Panel"
