@@ -1,5 +1,0 @@
-This is taken from 
- 
-git@github.com:markqvist/MicroAPRS.git
-
-and archived together with my version of the hardware implementation.  
