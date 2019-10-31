@@ -1642,7 +1642,7 @@ einem neuen Namen ab.</description>
 <element name="C1" library="rcl" package="SMC_B" value="22uf/6v Non electroytic " x="53.975" y="27.94" smashed="yes" rot="MR270">
 <attribute name="NAME" x="52.07" y="28.575" size="1.016" layer="26" rot="MR270"/>
 </element>
-<element name="C2" library="rcl" package="C0805" value="0.uf " x="59.055" y="27.94" smashed="yes" rot="MR270">
+<element name="C2" library="rcl" package="C0805" value="0.1uf " x="59.055" y="27.94" smashed="yes" rot="MR270">
 <attribute name="NAME" x="57.785" y="28.575" size="1.016" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="61.595" y="29.21" size="1.27" layer="28" rot="MR270"/>
 </element>
