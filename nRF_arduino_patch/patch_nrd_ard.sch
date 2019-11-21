@@ -14293,8 +14293,8 @@ Source: www.kingbright.com</description>
 <part name="U$1" library="1AA_Stofer" deviceset="SWITCH" device="SMD"/>
 <part name="BAT+" library="1AA_Stofer" deviceset="SOLDER_POINT" device="A"/>
 <part name="BAT-" library="1AA_Stofer" deviceset="SOLDER_POINT" device="A"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="470K"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="470K"/>
 <part name="L2" library="led" deviceset="LED" device="SML0603"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="330"/>
 <part name="C3" library="rcl" deviceset="C-US" device="C0805" value="0.1uf"/>
